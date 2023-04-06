@@ -1,1 +1,2 @@
 # precedencer
+The aim of this project is to help with precedence for expressions in C/C++. The user will provide an expression and the program will forst decide if it is a valid expression, and if so, it will try to reduce it, by removing unnecessary brackets.
