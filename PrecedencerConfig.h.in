@@ -1,0 +1,3 @@
+// the configured options and settings for Precedencer
+#define Precedencer_VERSION_MAJOR @Precedencer_VERSION_MAJOR@
+#define Precedencer_VERSION_MINOR @Precedencer_VERSION_MINOR@

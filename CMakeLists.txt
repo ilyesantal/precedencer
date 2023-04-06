@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(Precedencer VERSION 1.0)
+configure_file(PrecedencerConfig.h.in PrecedencerConfig.h)
+add_executable(Precedencer main.cpp)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+target_include_directories(Precedencer PUBLIC "${PROJECT_BINARY_DIR}")
